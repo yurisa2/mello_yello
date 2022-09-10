@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: mello-yello
+        image: yurisa2/petrosa:mello
         ports:
         - containerPort: 80
