@@ -18,5 +18,9 @@ spec:
       containers:
       - name: myapp
         image: yurisa2/petrosa:mello
+        env:
+          - name: VERSION
+            value: "0.0.1"
+
         ports:
         - containerPort: 80
