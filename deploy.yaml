@@ -20,7 +20,7 @@ spec:
         image: yurisa2/petrosa:mello
         env:
           - name: VERSION
-            value: "0.0.1"
+            value: "0.0.w"
 
         ports:
         - containerPort: 80
